@@ -1,6 +1,5 @@
 // Imports
 import clear from "console-clear"
-import readline from "readline"
 
 import random from "../utils/random/random.js"
 import pause from "../utils/pause.js"
@@ -11,7 +10,6 @@ import headerStyle from "../utils/style/headerStyle.js"
 import colors from "../utils/style/colors.js"
 import { playerHealthDisplay } from "../utils/stats.js"
 import enemies from "../utils/enemies.js"
-import start from "./start.js"
 
 // Fight function
 const fight = () => {

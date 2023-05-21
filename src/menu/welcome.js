@@ -5,6 +5,7 @@ import clear from "console-clear" // npm install --save console-clear
 import start from "./start.js"
 import load from "./load.js"
 import exit from "./exit.js"
+import run from "../run.js"
 import pause from "../utils/pause.js"
 import colors from "../utils/style/colors.js"
 import headerStyle from "../utils/style/headerStyle.js"
