@@ -23,4 +23,5 @@ let stats = () => {
   return userStats
 }
 
+export let userStats
 export default stats

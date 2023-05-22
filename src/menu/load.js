@@ -4,7 +4,7 @@ import clear from "console-clear"
 import headerStyle from "../utils/style/headerStyle.js"
 import colors from "../utils/style/colors.js"
 import welcome from "./welcome.js"
-// import { userStats } from "../utils/stats.js"
+import { userStats } from "../utils/stats.js"
 
 const load = async () => {
   clear(true)
