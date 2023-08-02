@@ -35,4 +35,4 @@ The fight itself is automatic where hits are getting thrown both on the player a
 
 ## Author
 
-- Website - [Veljko Spasic](https://veljkospasic.rf.gd)
+- Website - [Veljko Spasic](https://veljko-spasic.rf.gd)
