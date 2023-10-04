@@ -27,10 +27,7 @@ The fight itself is automatic where hits are getting thrown both on the player a
 
 ### Built with
 
-#### Languages
-- JS
-
-#### Frameworks
+- JavaScript
 - Node.js
 
 ## Author
