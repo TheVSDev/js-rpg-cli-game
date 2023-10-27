@@ -13,6 +13,7 @@ import { playerHealthDisplay } from "../utils/stats.js"
 import enemies from "../utils/enemies.js"
 import exit from "./exit.js"
 import start from "./start.js"
+import afterFightMenu from "../utils/afterFightMenu.js"
 
 // Fight function
 const fight = () => {
@@ -69,32 +70,7 @@ const fight = () => {
 
       await pause();
       
-      console.log("----");
-      console.log("----");
-      
-      await pause();
-
-      console.log(`
-      1. Back to main menu
-      2. Exit ❌
-      `)
-
-      const rl = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout,
-      })
-  
-      rl.question("Your choice (1 or 2): ", (input) => {
-        if (input == 1) {
-          start()
-          rl.close()
-        } else if (input == 2) {
-          exit()
-          rl.close()
-        } else {
-          start()
-        }
-      })
+      afterFightMenu();
     } else if (enemyHealth <= 0) {
       headerStyle("Fight is over.", colors.white, colors.green)
       console.log("Yayyyyy, YOU WONNN !!! ")
@@ -102,32 +78,7 @@ const fight = () => {
 
       await pause();
       
-      console.log("----");
-      console.log("----");
-      
-      await pause();
-
-      console.log(`
-      1. Back to main menu
-      2. Exit ❌
-      `)
-
-      const rl = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout,
-      })
-  
-      rl.question("Your choice (1 or 2): ", (input) => {
-        if (input == 1) {
-          start()
-          rl.close()
-        } else if (input == 2) {
-          exit()
-          rl.close()
-        } else {
-          start()
-        }
-      })
+      afterFightMenu();
     }
   }
 
