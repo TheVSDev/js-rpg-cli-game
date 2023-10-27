@@ -13,7 +13,7 @@ import enemies from "../utils/enemies.js"
 
 // Fight function
 const fight = () => {
-  clear(true)
+  clear()
   headerStyle("Battle", colors.blue, colors.green)
 
   // Extracting the enemy from the array in enemies.js

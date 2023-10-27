@@ -10,7 +10,7 @@ import start from "./start.js"
 
 // Shop function
 const shop = () => {
-  clear(true)
+  clear()
   
   async function shopping() {
     headerStyle("Shop", colors.blue, colors.green)

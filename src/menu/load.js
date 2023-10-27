@@ -7,7 +7,7 @@ import welcome from "./welcome.js"
 import { userStats } from "../utils/stats.js"
 
 const load = async () => {
-  clear(true)
+  clear()
   readFile("userStats.json", "utf8", (err, data) => {
     if (err) {
       headerStyle("No saved data")

@@ -8,7 +8,7 @@ import stats  from "../utils/stats.js"
 
 // Save function
 const save = async () => {
-  clear(true)
+  clear()
 
   let userStats = stats();
   const data = JSON.stringify(userStats)

@@ -1,6 +1,6 @@
 // Imports
 import readline from "readline"
-import clear from "console-clear" // npm install --save console-clear
+import clear from "console-clear"
 
 import start from "./start.js"
 import load from "./load.js"
@@ -12,7 +12,7 @@ import headerStyle from "../utils/style/headerStyle.js"
 
 // Welcome function
 const welcome = (args) => {
-  clear(true)
+  clear()
 
   async function welcomeMenu() {
     headerStyle("Welcome !", colors.blue, colors.green)

@@ -13,7 +13,7 @@ import exit from "./exit.js"
 
 // Start function
 const start = () => {
-  clear(true)
+  clear()
   async function menuStart() {
     headerStyle("Main Menu", colors.blue, colors.green)
 

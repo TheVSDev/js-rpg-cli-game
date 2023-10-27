@@ -6,7 +6,7 @@ import colors from "../utils/style/colors.js"
 
 // Exit function
 const exit = () => {
-  clear(true)
+  clear()
   headerStyle("Game over", colors.blue, colors.green)
   console.log("Thanks for playing.")
 }
