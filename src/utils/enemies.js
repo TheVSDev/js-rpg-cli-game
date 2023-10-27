@@ -6,5 +6,9 @@ const enemies = [
   "Rahzar Mutant",
   "Electro Snake",
   "Frostly Giant",
+  "Ice Dragon",
+  "Volcano Monster",
+  "Cave Giant",
+  "Water Snake",
 ]
 export default enemies
