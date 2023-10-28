@@ -71,7 +71,7 @@ const fight = () => {
     } else if (enemyHealth <= 0) {
       headerStyle("Fight is over.", colors.white, colors.green)
       console.log("Yayyyyy, YOU WONNN !!! ")
-      console.log("You gained 50 coins.")
+      console.log("You gained 50 coins and 50 XP.")
 
       await pause();
       
